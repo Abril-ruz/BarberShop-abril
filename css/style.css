@@ -1,0 +1,237 @@
+/* ========== VARIABLES ========== */
+:root {
+	--color-general: #383838;
+	--color-titulos: #222;
+	--fondo-negro: #262728;
+	--fondo-rosado: #fee9da;
+	--color-gris: #c6c6c6;
+	--fuente-contenido: 'Didact Gothic', sans-serif;
+	--fuente-titulos: 'Poppins', sans-serif;
+}
+
+/* ========== GENERAL ========== */
+body {
+	font-family: var(--fuente-contenido);
+	color: var(--color-general);
+	font-size: 15px;
+	line-height: 1.9;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-family: var(--fuente-titulos);
+	color: var(--color-titulos);
+	font-weight: 600;
+}
+h2 {
+	font-size: 36px;
+	font-weight: 700;
+}
+a {
+	text-decoration: none;
+}
+.link-linea {
+	font-family: var(--fuente-titulos);
+	font-size: 11px;
+	font-weight: 600;
+	letter-spacing: 1px;
+	color: var(--color-titulos);
+}
+
+/* ========== HEADER ========== */
+header {
+	background-color: var(--fondo-negro);
+}
+.navbar-brand img {
+	width: 110px;
+}
+.boton-book {
+	background-color: #000;
+	color: #fff;
+	font-family: var(--fuente-titulos);
+	font-size: 11px;
+	font-weight: 600;
+	padding: 10px 15px;
+}
+
+/* ========== HERO ========== */
+.hero-texto {
+	background-color: var(--fondo-negro);
+	padding: 100px 60px 160px 60px;
+}
+.hero-texto h1 {
+	color: #fff;
+	font-size: 48px;
+	font-weight: 700;
+	margin-bottom: 25px;
+}
+.hero-texto p {
+	color: #fff;
+	font-size: 13px;
+	margin-bottom: 30px;
+}
+.hero-texto .link-linea {
+	color: #fff;
+}
+.hero-img {
+	background-image: url(../img/1.jpg);
+	background-size: cover;
+	background-position: center;
+	padding: 200px 0;
+}
+
+/* ========== TRENDY ========== */
+.trendy {
+	padding: 90px 0;
+}
+.trendy p, .products p {
+	font-size: 13px;
+	margin-bottom: 30px;
+}
+
+/* ========== SERVICES ========== */
+.services {
+	padding: 60px 0 90px 0;
+}
+.titulo-centro {
+	text-align: center;
+	margin-bottom: 40px;
+}
+.titulo-centro p {
+	font-size: 13px;
+}
+.servicio {
+	background-color: rgba(0, 0, 0, 0.45);
+	background-blend-mode: multiply;
+	background-size: cover;
+	background-position: center;
+	padding: 90px 0;
+	margin-bottom: 30px;
+	text-align: center;
+}
+.servicio h5 {
+	color: #fff;
+	font-size: 18px;
+	margin-bottom: 0;
+}
+.servicio-haircut  { background-image: url(../img/Service-1.jpg); }
+.servicio-hairspa  { background-image: url(../img/Service-2.jpg); }
+.servicio-facial   { background-image: url(../img/Service-3.jpg); }
+.servicio-makeover { background-image: url(../img/Service-4.jpg); }
+.servicio-massage  { background-image: url(../img/Service-5.jpg); }
+.servicio-bridal   { background-image: url(../img/Service-6.jpg); }
+.servicio-groom    { background-image: url(../img/Service-7.jpg); }
+.servicio-stylist  { background-image: url(../img/Service-8.jpg); }
+
+/* ========== PRODUCTS ========== */
+.products {
+	background-color: var(--fondo-rosado);
+	padding: 60px 0;
+}
+
+/* ========== TESTIMONIALS ========== */
+.testimonio-texto {
+	text-align: center;
+	padding: 150px 80px;
+}
+.testimonio-texto i {
+	color: var(--color-titulos);
+	font-size: 20px;
+}
+.testimonio-frase {
+	font-size: 18px;
+	margin: 15px 0 25px 0;
+}
+.testimonio-texto h6 {
+	font-size: 14px;
+	margin-bottom: 0;
+}
+.testimonio-cargo {
+	color: var(--color-gris);
+	font-size: 10px;
+	letter-spacing: 2px;
+}
+.testimonio-img1 {
+	background-image: url(../img/testimonial-1.jpg);
+	background-size: cover;
+	background-position: center;
+	padding: 180px 0;
+}
+.testimonio-img2 {
+	background-image: url(../img/testimonial-2.jpg);
+	background-size: cover;
+	background-position: center;
+	padding: 180px 0;
+}
+
+/* ========== CONTACT ========== */
+.contact {
+	padding: 90px 0;
+}
+.contact p {
+	font-size: 13px;
+	margin-bottom: 30px;
+}
+.contact .form-control {
+	border: 0;
+	border-bottom: 1px solid var(--color-gris);
+	border-radius: 0;
+	font-size: 12px;
+	padding: 15px 0;
+	margin-bottom: 20px;
+}
+.boton-centro {
+	text-align: center;
+}
+.boton-submit {
+	background-color: var(--fondo-negro);
+	color: #fff;
+	border-radius: 0;
+	font-family: var(--fuente-titulos);
+	font-size: 11px;
+	font-weight: 600;
+	padding: 12px 25px;
+}
+.contacto-datos {
+	padding-top: 60px;
+}
+.contacto-datos .row {
+	margin-bottom: 25px;
+}
+.contacto-datos small {
+	font-family: var(--fuente-titulos);
+	font-size: 10px;
+	font-weight: 600;
+	letter-spacing: 1px;
+}
+.contacto-datos p {
+	margin-bottom: 0;
+}
+.icono-circulo {
+	background-color: var(--fondo-negro);
+	color: #fff;
+	font-size: 18px;
+	width: 50px;
+	padding: 11px 0;
+	text-align: center;
+	border-radius: 50%;
+}
+
+/* ========== FOOTER ========== */
+footer {
+	background-color: #000;
+	padding: 90px 0;
+}
+.footer-social {
+	text-align: center;
+}
+.footer-social a {
+	color: #fff;
+	font-size: 14px;
+	margin: 0 10px;
+}
+
+/* ========== RESPONSIVE ========== */
+@media (max-width: 991px) {
+	.hero-texto { padding: 60px 30px; }
+	.hero-img { padding: 150px 0; }
+	.testimonio-texto { padding: 80px 30px; }
+}
