@@ -72,7 +72,6 @@ header {
 	color: #fff;
 }
 .hero-img {
-	background-image: url(../img/1.jpg);
 	background-size: cover;
 	background-position: center;
 	padding: 200px 0;
@@ -112,14 +111,6 @@ header {
 	font-size: 18px;
 	margin-bottom: 0;
 }
-.servicio-haircut  { background-image: url(../img/Service-1.jpg); }
-.servicio-hairspa  { background-image: url(../img/Service-2.jpg); }
-.servicio-facial   { background-image: url(../img/Service-3.jpg); }
-.servicio-makeover { background-image: url(../img/Service-4.jpg); }
-.servicio-massage  { background-image: url(../img/Service-5.jpg); }
-.servicio-bridal   { background-image: url(../img/Service-6.jpg); }
-.servicio-groom    { background-image: url(../img/Service-7.jpg); }
-.servicio-stylist  { background-image: url(../img/Service-8.jpg); }
 
 /* ========== PRODUCTS ========== */
 .products {
@@ -150,13 +141,11 @@ header {
 	letter-spacing: 2px;
 }
 .testimonio-img1 {
-	background-image: url(../img/testimonial-1.jpg);
 	background-size: cover;
 	background-position: center;
 	padding: 180px 0;
 }
 .testimonio-img2 {
-	background-image: url(../img/testimonial-2.jpg);
 	background-size: cover;
 	background-position: center;
 	padding: 180px 0;
